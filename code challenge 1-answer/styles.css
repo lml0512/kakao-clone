@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  height: 1500px;
+  padding-top: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgb(241, 139, 139);
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+.box {
+  vertical-align: top;
+  display: inline-block;
+  height: 100%;
+}
+
+.blueBox {
+  background-color: skyblue;
+  width: 70%;
+  display: inline-block;
+}
+
+.blueBox h1 {
+  color: white;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.yellowBox {
+  background-color: rgb(238, 238, 20);
+  width: 30%;
+  border: 5px solid grey;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.greenBox {
+  background-color: yellowgreen;
+  position: absolute;
+  height: 50px;
+  width: 80px;
+  top: -30px;
+  left: -50px;
+  z-index: 2;
+}

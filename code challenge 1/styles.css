@@ -1,0 +1,28 @@
+.boxtwo {
+  height: 649px;
+  width: 1300px;
+  top: 105px;
+  left: 5px;
+  background-color: skyblue;
+  position: relative;
+}
+.inside-box {
+  height: 640px;
+  width: 400px;
+  top: 105px;
+  right: 1px;
+  bottom: 200px;
+  background-color: yellow;
+  position: absolute;
+  border: 5px solid grey;
+}
+
+#boxThree {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(243, 114, 114);
+  top: 5px;
+  left: 5px;
+  right: 15px;
+  position: fixed;
+}
